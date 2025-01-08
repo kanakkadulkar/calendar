@@ -1,3 +1,29 @@
+# Calendar App
+
+A feature-rich calendar application built with **React.js** and custom calendar logic, styled using **shadcn** UI components.
+
+## Project Setup
+
+- **React.js**: The app is built using functional components and hooks for state management and side effects.
+- **Custom Calendar Logic**: The calendar functionality is implemented without using any third-party libraries for calendar-related logic.
+- **shadcn UI**: UI components such as buttons, inputs, and dialogs are styled using the `shadcn` library.
+
+## Features
+
+- **Month Navigation**: Navigate through different months using left and right arrows.
+- **Event Creation, Editing, and Deletion**: Users can add, modify, and delete events with details such as title, start time, end time, description, and color.
+- **Time Conflict Detection**: The app ensures that there are no overlapping events at the same time.
+- **Event Search**: Users can search events by title or description.
+- **Event Export**: Users can download their events as a JSON file.
+- **Responsive UI**: Built with `shadcn` UI components to ensure a seamless and modern user experience.
+
+## Technologies Used
+
+- **React.js**: A JavaScript library for building user interfaces.
+- **React Hooks**: Used to handle state and side effects in functional components.
+- **date-fns**: A utility library for date manipulation and formatting.
+- **shadcn UI**: A modern, highly customizable UI component library.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
